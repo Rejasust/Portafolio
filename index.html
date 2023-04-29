@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Regina Ustaritz">
+    <meta name="description" content="Portafolio de desarrollo web de Regina Ustaritz">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Regina Ustaritz | Sowftware Engineer</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="https://i.pinimg.com/1200x/b2/83/09/b283095bb2f2c8b38854371283d730dd.jpg" alt="Foto de Regina">
+        <h1>Hola, soy Regina Ustaritz</h1>
+        <!--<h2>Desarrollo de sitios web.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="imagen-css-html" src="imagenes/css-3.png" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Regina</h2>
+       <p class="seccion-texto">Soy una estdiante universitaria, estudio Ingeniería Industrial,me gusta mucho la tecnología y aprender nuevas cosas que incluyan estar en una comptadora, por eso ingrese al curso de Tecnolochicas, para ingerir nuevos conocimientos sobre como hacer una página web desde cero. Ahora terminando el curso se como progamar una pagina web y dentro de todo eso aprendí a como poner links, imagenes, cambiar de letra, vincular páginas,etc. Este curso me ayudo mucho y me servirá en un futuro.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p> En este sitio web muestro mis proyectos echos en el curso de Tecnolochicas usando CSS Y HTML, proyectos sobre sitios web elaborados desde cero.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Artículos</p>
+            <p>Mis proyctos son una web gatuna que habla todo lo necesario a saber sobre los gatos y mi segundo proyecto es de unclon de Google, estos dos proyectos echos con CSS Y HTML</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Web gatuna</span>
+              <span class="badge text-bg-primary">Clon de Google</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Soy una estdiante universitaria de La Salle Bajío, actualmente estudio Ingeniería Industrial, 2do semestre, me gusta progamar y trabajar en la computadora.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tecnolochicas PRO</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+              <span class="badge text-bg-primary">Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente en Tecnolochicas...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="Rejasust.github.io" target="_blank">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="Rejasust.github.io" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <center><img class="gato-se" src="data:image/jpeg;base64,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" alt="Proyecto 2">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Guía básica para usar CSS
+            </li>
+          </a>
+          <a href="https://nancynsalazar.medium.com/c%C3%B3mo-ser-un-a-mejor-programador-a-749c1bf98990" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Cómo ser un(a) mejor programador(a)
+            </li>
+           <a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+                Guía básica para usar HTML
+            </li>
+              <a href="https://www.freecodecamp.org/espanol/news/que-es-programacion-manual-para-principiantes/#:~:text=Ejemplos%20de%20lenguajes%20de%20programaci%C3%B3n,ser%20usados%20para%20distintos%20prop%C3%B3sitos." target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+                Lenguaje básico de programación 
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.svg" alt="Foto de Gino">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.svg" alt="Foto de Nora">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Nora</p>
+                <p class="cargo">Gerente de DiseñaMiPáginaWeb</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.svg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Leonardo</p>
+                <p class="cargo">Director de AprendeAProgramar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="https://mail.google.com/mail/u/0/#inbox">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/Rejasust" target="_blank">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/regina-ustaritz-b877a7273/" target="_blank">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Regina Ustaritz (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
